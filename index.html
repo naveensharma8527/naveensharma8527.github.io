@@ -64,8 +64,8 @@
     <main class="content-wrapper">
       <header class="white-text-container section-container">
         <div class="text-center">
-          <h1>I am Naveen Sharma</h1>
-          <p>Java Backend Developer</p>
+          <h1 id="user-detail-name">I am Naveen Sharma</h1>
+          <p  id="user-detail-intro">Java Backend Developer</p>
           <p>
             <a
               class="fa-icon fa-icon-2x"
@@ -105,10 +105,11 @@
                 <div class="row">
                   <div class="col-md-4">
                     <p>
-                      <img
+                      <img 
                         src="./assets/images/naveenpp.png"
                         class="img-responsive"
                         alt=""
+                        class="home-img"
                       />
                     </p>
                   </div>
@@ -339,24 +340,34 @@
             </div>
             <div class="card" id="gitCalender">
               <div class="card-block">
-                <h2>Git Calender</h2>
+                <h2>GitHub Streak Stats</h2>
                 <img
                   class="gitCalender"
-                  src="git cal image link here"
-                  alt="HTML"
+                  src="https://github-readme-streak-stats.herokuapp.com?user=naveensharma8527&theme=radical&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+                  alt="streakstat"
+                />
+              </div>
+              <div class="card-block">
+                <h2>Github top langs</h2>
+                <img
+                  class="gitCalender"
+                  id="github-top-langs"
+                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=naveensharma8527&theme=outrun"
+                  alt="top_languages"
                 />
               </div>
               <div class="card-block">
                 <h2>Git Stats</h2>
                 <img
                   class="gitCalender"
-                  src="git stat image link here"
-                  alt="HTML"
+                  id="github-stats-card"
+                  src="https://github-readme-stats.vercel.app/api?username=naveensharma8527&count_private=true"
+                  alt="stat-card"
                 />
               </div>
             </div>
 
-            <div class="card" id="Contact">
+            <div class="card" id="contact">
               <div class="card-block">
                 <h2>Contact</h2>
                 <div class="row">
