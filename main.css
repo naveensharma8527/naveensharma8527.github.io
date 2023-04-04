@@ -90,12 +90,17 @@ body {
   }
   
   #skills {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #f2f2f2;
     height: 100vh;
-    padding: 50px;
+    padding: 50px; */
+
+    display: grid;
+    width: 80%;
+    margin:  0 auto;
+    grid-template-columns: repeat(5, 1fr);
   }
   
   .skills-card {
@@ -129,10 +134,15 @@ body {
   } */
   
   #skills {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+
+    display: grid;
+    width: 80%;
+    margin:  0 auto;
+    grid-template-columns: repeat(5, 1fr);
   }
   
   .skills-card {
@@ -172,4 +182,15 @@ body {
     margin: 50px;
     display: flex;
   }
+
+  /* #skills{
+    display: grid;
+    width: 80%;
+    margin:  0 auto;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .skills-card{
+    margin: 2rem;
+  } */
   
