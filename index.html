@@ -45,7 +45,7 @@
         <li><a class="active nav-link education" href="#Education">Education</a></li>
         <li><a class="active nav-link skills"  href="#skills">Skills</a></li>
         <li><a class="active nav-link contact"   href="#contact">Contact</a></li>
-        <li>
+        <!-- <li>
           <a class="nav-link resume" id="resume-button-1"
             class="active"
             href="/assets/images/resume/Naveen _Resume.pdf"
@@ -54,15 +54,8 @@
             onclick="window.open(`https://drive.google.com/file/d/1ErcJxHhNboejIx2ukDxxLueWSRom-qOD/view?usp=sharing`)"
             >Resume</a
           >
-          <!-- <a class="nav-link resume" id="resume-button-1"
-            class="active"
-            href="/assets/images/resume/Naveen _Resume.pdf"
-            download="Naveen-Sharma-Resume"
-            >Resume</a
-          > -->
-           
-          
-        </li>
+        </li> -->
+        <li><button id="resume-button-1" onclick="resume()"><a id="resume-link-1" class="nav-link resume" href="/assets/images/resume/Naveen _Resume.pdf" download="Naveen-Sharma-Resume" target="_blank">Resume</a></button></li>
       </ul>
     </nav>
 
@@ -161,12 +154,15 @@
                         target="_blank"
                       > -->
 
-                      <a id="resume-button-2"
+                      <!-- <a id="resume-button-2"
                         href="/assets/images/resume/Naveen _Resume.pdf"
                         download="Naveen-Sharma-Resume"
                       >
                         Resume
-                      </a>
+                      </a> -->
+
+                      <button id="resume-button-2" onclick="resume()"><a id="resume-link-2"  href="/assets/images/resume/Naveen _Resume.pdf" download="Naveen-Sharma-Resume" target="_blank">Resume</a></button>
+
 
                       
                        <!-- <button id="resume-button-2" class="btn"><a id="resume-link-2" href='' target="_blank"
@@ -704,3 +700,10 @@
     <script type="text/javascript" src="./main.bc58148c.js"></script>
   </body>
 </html>
+<script>
+  
+  function resume(){
+    window.open("https://drive.google.com/file/d/1ErcJxHhNboejIx2ukDxxLueWSRom-qOD/view?usp=share_link", "_blank");
+  }
+  
+</script>
