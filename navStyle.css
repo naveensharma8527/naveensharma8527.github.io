@@ -66,7 +66,7 @@ a.active,a:hover{
     }
     ul{
         position: fixed;
-        width: 30%;
+        width: 50%;
         background: black;
         height: 100vh;
         top: 80px;
