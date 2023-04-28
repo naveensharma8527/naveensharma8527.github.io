@@ -706,5 +706,16 @@
   function resume(){
     window.open("https://drive.google.com/file/d/1ErcJxHhNboejIx2ukDxxLueWSRom-qOD/view?usp=share_link", "_blank");
   }
+
+
+  let ck = document.querySelectorAll(".nav-link");
+
+let checkbox = document.querySelector("#check");
+ck.forEach(e => {
+  e.addEventListener("click",()=>{
+    // console.log("hellooo");
+    checkbox.checked = false;
+  })
+} )
   
 </script>
